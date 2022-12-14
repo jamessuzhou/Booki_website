@@ -1,0 +1,48 @@
+        <div class="hotel-links">
+            <div class="hotels-pic-top">
+                <img src="images/Booki-small.png">
+                <p><strong>Auberge la Cannebiere</strong></p>
+                <p>Night starting at <strong>$25</strong></p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+            </div>
+            
+            <div class="hotels-pic-top">
+                <img src="images/Booki-small.png">
+                <p><strong>Hotel du port</strong></p>
+                <p>Night starting at <strong>$52</strong></p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            
+            <div class="hotels-pic-top">
+                <img src="images/Booki-small.png">
+                <p><strong>Les mouettes Hotel</strong></p>
+                <p>Night starting at <strong>$76</strong></p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+            </div>
+            
+            <div class="hotels-pic-top">
+                <img src="images/Booki-small.png">
+                <p><strong>Hotel de la mer</strong></p>
+                <p>Night starting at <strong>$46</strong></p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+            
+            </div>
+            
+            <div class="hotels-pic-top">
+                <img src="images/Booki-small.png">
+                <p><strong>Auberge Le Panier</strong></p>
+                <p>Night starting at <strong>$23</strong></p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+            
+            </div>
+            
+            <div class="hotels-pic-top">
+                <img src="images/Booki-small.png">
+                <p><strong>Hotel chez Amina</strong></p>
+                <p>Night starting at <strong>$96</strong></p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            
+            </div>    
+        </div>
+        </div>
+        

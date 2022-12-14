@@ -1,0 +1,188 @@
+/* New rules if the window width is smaller than 1024px */
+
+@media all and (max-width: 320px) {
+    li {
+        display: block;
+        margin: 5px 0px;
+    }
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway-Medium.ttf);
+}
+
+* {
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    list-style-type: none;
+}
+
+nav {
+    font-family: Raleway;
+    color: #151814;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:200px
+}
+
+.whole-list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: right;
+}
+
+
+.whole-list .nav-link {
+    list-style-type: none;   
+}
+
+.whole-list .nav-link a {
+    text-decoration: none;
+    color: #151814;    
+    padding: 80px 50px;
+    
+}
+
+.whole-list .nav-link :hover {
+    border-top: 2px solid blue; 
+    color: blue;
+}
+
+.search-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border-radius: 15px;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+.search-bar {
+    border: 1px solid lightgrey;
+    width: 400px;
+    max-width: 600px;
+    height: 55px;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.search-bar .fa-solid {
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    position:absolute;
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 40px;
+    left: 0;
+    top: 0;
+    border-radius: 15px 0 0 15px;
+    height: 100%;
+}
+
+
+.search-bar input {
+    background: white;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 15px;
+    outline:none;
+    border: none;
+    padding-left: 50px;
+}
+
+.search-bar .search-button {
+    position:absolute;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 100px;
+    right: 0;
+    top: 0;
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+
+}
+
+::placeholder{
+    color: grey;
+}
+
+
+.local-and-most-popular {
+    border: 2px solid black;
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.local-and-most-popular .local-accommodations {
+    border: 2px solid red;
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1000px;
+}
+
+.fa-solid {
+    color: blue;
+}
+
+.fa-regular {
+    color:gray;
+}
+
+.local-and-most-popular .local-accommodations .hotel-links {
+    background-color: yellowgreen;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    
+} 
+
+.local-and-most-popular .local-accommodations .hotel-links .hotels-pic-top {
+    background-color: white;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.local-and-most-popular .most-popular{
+    border: 2px solid green;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.local-and-most-popular .most-popular .hotels-most-pop {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.local-and-most-popular .most-popular .hotels-most-pop .hotels-most-pop-image {
+    width: 170px;
+    height: 200px;
+    border-radius: 15px 0 0 15px;
+}
